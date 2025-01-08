@@ -105,3 +105,5 @@ desktop.ini
 *.BuildWithSkipAnalyzers
 *.txt
 /eshop-misroservice/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.AssemblyInfo.cs
+*.json
+*.json

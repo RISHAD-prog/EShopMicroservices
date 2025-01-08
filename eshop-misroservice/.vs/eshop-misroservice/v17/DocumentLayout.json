@@ -1,7 +1,15 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\.NET Projects\\Microservice project\\udemy\\EShop Microservice\\EShopMicroservices\\eshop-misroservice\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB1ED6FD-E58B-4180-9888-9C4F23616B04}|Catalog\\Catalog.API\\Catalog.API.csproj|d:\\.net projects\\microservice project\\udemy\\eshop microservice\\eshopmicroservices\\eshop-misroservice\\catalog\\catalog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB1ED6FD-E58B-4180-9888-9C4F23616B04}|Catalog\\Catalog.API\\Catalog.API.csproj|solutionrelative:catalog\\catalog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ihrishad\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +17,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +34,30 @@
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.NET Projects\\Microservice project\\udemy\\EShop Microservice\\EShopMicroservices\\eshop-misroservice\\Catalog\\Catalog.API\\Program.cs",
+              "RelativeDocumentMoniker": "Catalog\\Catalog.API\\Program.cs",
+              "ToolTip": "D:\\.NET Projects\\Microservice project\\udemy\\EShop Microservice\\EShopMicroservices\\eshop-misroservice\\Catalog\\Catalog.API\\Program.cs",
+              "RelativeToolTip": "Catalog\\Catalog.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T18:12:21.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Container.targets",
+              "DocumentMoniker": "C:\\Users\\ihrishad\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
+              "ToolTip": "C:\\Users\\ihrishad\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAuwNgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-01-08T18:07:44.995Z",
+              "EditorCaption": ""
             }
           ]
         }
