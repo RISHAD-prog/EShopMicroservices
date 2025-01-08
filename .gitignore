@@ -3,3 +3,14 @@
 ################################################################################
 
 *.vsidx
+*.json
+/eshop-misroservice/.vs/eshop-misroservice/v17/.suo
+*.dll
+*.exe
+*.pdb
+*.cache
+*.props
+/eshop-misroservice/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.AssemblyInfoInputs.cache
+*.BuildWithSkipAnalyzers
+*.txt
+/eshop-misroservice/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.AssemblyInfo.cs
