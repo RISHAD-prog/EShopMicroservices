@@ -1,0 +1,89 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore configuration files
+*.vs/
+.vscode/
+*.csproj.user
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Ignore logs
+*.log
+logs/
+log/
+
+# Ignore runtime output
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.cache
+*.db
+
+# Ignore generated files
+*.generated.cs
+*.designer.cs
+*.g.cs
+*.g.i.cs
+*.g.br.json
+*.json.g.br
+*.swagger
+
+# Ignore local databases
+*.mdf
+*.ldf
+*.sdf
+
+# Ignore deployment files
+*.publish/
+publish/
+
+# Ignore environment variables and secret files
+.env
+.env.*
+secrets.json
+
+# Ignore test results
+TestResults/
+*.trx
+*.coverage
+*.coveragejson
+
+# Ignore ReSharper files
+_ReSharper/
+*.DotSettings.user
+resharper-temp/
+
+# Ignore Rider IDE files
+.idea/
+.idea_modules/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore Windows files
+Thumbs.db
+desktop.ini
+
+# Ignore Linux files
+*~
+
+# Ignore by convention
+!.gitignore
