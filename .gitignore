@@ -107,3 +107,12 @@ desktop.ini
 /eshop-misroservice/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.AssemblyInfo.cs
 *.json
 *.json
+/eshop-misroservice/.vs/eshop-misroservice/v17/DocumentLayout.json
+/eshop-misroservice/.vs/eshop-misroservice/v17/DocumentLayout.backup.json
+/eshop-misroservice/Catalog/Catalog.API/obj/project.assets.json
+/eshop-misroservice/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.assets.cache
+/eshop-misroservice/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.GeneratedMSBuildEditorConfig.editorconfig
+/eshop-misroservice/Catalog/Catalog.API/obj/Catalog.API.csproj.nuget.dgspec.json
+/eshop-misroservice/Catalog/Catalog.API/obj/Catalog.API.csproj.nuget.g.props
+/eshop-misroservice/Catalog/Catalog.API/obj/Catalog.API.csproj.nuget.g.targets
+/eshop-misroservice/Catalog/Catalog.API/obj/project.nuget.cache
