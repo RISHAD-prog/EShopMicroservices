@@ -8,7 +8,7 @@ namespace Catalog.API.Products.GetProductsById
     {
         public void AddRoutes(IEndpointRouteBuilder app)
         {
-            app.MapGet("products/{id}", async (Guid id,ISender sender) =>
+            app.MapGet("/products/{id}", async (Guid id,ISender sender) =>
             {
                 var result = await sender.Send(new GetProductByIdQuery(id));
                 
@@ -17,8 +17,8 @@ namespace Catalog.API.Products.GetProductsById
                 return Results.Ok(response);
 
             })
-            .WithName("GetProducts")
-            .Produces<GetProductsResponse>(StatusCodes.Status200OK)
+            .WithName("GetProductById")
+            .Produces<GetProductByIdResponse>(StatusCodes.Status200OK)
             .ProducesProblem(StatusCodes.Status400BadRequest);
         }
     }
