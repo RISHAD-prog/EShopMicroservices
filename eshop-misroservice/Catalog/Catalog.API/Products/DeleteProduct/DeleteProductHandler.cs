@@ -1,7 +1,19 @@
-﻿namespace Catalog.API.Products.DeleteProduct
+﻿using Catalog.API.Products.UpdateProducts;
+using FluentValidation;
+
+namespace Catalog.API.Products.DeleteProduct
 {
     public record DeleteProductQuery(Guid ID) : IQuery<DeleteProductResult>;
     public record DeleteProductResult(bool IsSuccess);
+
+    public class UpdateProductCommandValidator : AbstractValidator<DeleteProductQuery>
+    {
+        public UpdateProductCommandValidator()
+        {
+            RuleFor(x => x.ID).NotEmpty().WithMessage("ProductID is required");
+        }
+    }
+
     internal class DeleteProductHandler(IDocumentSession session, ILogger<DeleteProductHandler> logger) : IQueryHandler<DeleteProductQuery, DeleteProductResult>
     {
         public async Task<DeleteProductResult> Handle(DeleteProductQuery request, CancellationToken cancellationToken)
@@ -10,7 +22,7 @@
 
             if (product == null)
             {
-                throw new ProductNotFoundException();
+                throw new ProductNotFoundException(request.ID);
             }
 
             session.Delete(product);
